@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookLook</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <div class="navbar">
+        <h1>BookLook</h1>
+    </div>
+        <div class="container">
+            <div class="book-container">
+                <h2>The Courage To Be Disliked</h2>
+                <h5>Ichiro Kishimi and Fumitake Koga</h5>
+                <p>The Courage to Be Disliked explains Alfred Adler's philosophy on living a happier, freer life by rejecting the need for external approval and embracing self-responsibility. It emphasizes the power of choice over past traumas and the value of contributing to others' well-being. Through a dialogue format, it makes these psychological insights accessible and transformative.</p>
+                <button onclick="deletebook(event)">Delete</button>
+            </div>
+            </div>
+        <div class="popup-overlay"></div>
+        <div class="popup-box">
+            <h2>Add Book</h2>
+            <form>
+                <input type="text" placeholder="Book title" id="book-title-input">
+                <input type="text" placeholder="Book Author" id="book-author-input">
+                <textarea placeholder="Short Description" id="book-description-input"></textarea>
+                <button id="add-book">ADD</button>
+                <button id="cancel-popup">CANCEL</button>
+            </form>
+        </div>
+        <button class="add-button" id="add-popup-button">+</button>
+        <script src="script.js"></script>
+
+    
+</body>
+</html>
