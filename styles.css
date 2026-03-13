@@ -327,6 +327,7 @@ profile-photo .img{
   /* color:#fff;  */
 }
 .project-title{
+  margin-top: 70px;
   margin-bottom: 60px;
   text-align: center;
 }
