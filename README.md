@@ -1,2 +1,2 @@
 # Profile
-A portfolio which contains both Frontend and Backend with PostgreSQL
+A portfolio which about me is in Underconstruction
