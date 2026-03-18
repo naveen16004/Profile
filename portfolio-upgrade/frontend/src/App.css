@@ -28,7 +28,21 @@ body{
   margin:auto;
 }
 
+.fa-bolt {
+  filter: drop-shadow(0 0 5px yellow);
+  animation: bolt-glow 2s infinite alternate;
+}
 
+@keyframes bolt-glow {
+  from {
+    filter: drop-shadow(0 0 2px yellow);
+    transform: scale(1);
+  }
+  to {
+    filter: drop-shadow(0 0 10px orange);
+    transform: scale(1.1);
+  }
+}
 
 
       /*---------------------------Header---------------------------*/

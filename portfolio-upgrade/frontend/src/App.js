@@ -71,7 +71,7 @@ function App() {
               <i className="fa fa-music" style={{ color: 'yellow' }}></i>
             </a>
             <ul className="navbar">
-              <li><a href="#home">Home</a></li>
+              
               <li><a href="#about">About</a></li>
               <li><a href="#education">Education</a></li>
               <li><a href="#projects">Projects</a></li>
@@ -93,7 +93,7 @@ function App() {
             I am a <span className="typing-text" style={{ color: 'yellow' }}></span>
           </p>
           <div className="btn-group" style={{ display: 'flex', gap: '15px' }}>
-            <a href="/Resume.pdf" download="Naveen_Resume.pdf" className="btn active">Download Resume</a>
+            <a href="/naveen resume.pdf" download="Naveen_Resume.pdf" className="btn active">Download Resume</a>
             <a href="mailto:naveen16004@gmail.com" className="btn">Contact</a>
           </div>
         </div>
@@ -114,7 +114,7 @@ function App() {
             <div className="about-skills">
               <ul>
                 <li>Name: T.Naveen</li>
-                <li>Age: 20</li>
+                <li>Age: 21</li>
                 <li>From: India</li>
                 <li>Experience: &lt;1yr</li>
               </ul>
@@ -188,21 +188,21 @@ function App() {
           </div>
           <div className="projects">
             <div className="project">
-              <a href="Files/project/index.html">
+              <a href="https://github.com/naveen16004/Book-Look">
                 <i className="fa fa-book"></i>
                 <h4>Book Look</h4>
                 <p>JS focused application.</p>
               </a>
             </div>
             <div className="project">
-              <a href="Files/FGame/index.html">
+              <a href="https://github.com/naveen16004/Guessing-Game">
                 <i className="fa fa-car"></i>
                 <h4>GUESSING GAME</h4>
                 <p>Frontend number finding game.</p>
               </a>
             </div>
             <div className="project">
-              <a href="Files/Movie/index.html">
+              <a href="https://github.com/naveen16004/Movie">
                 <i className="fa fa-film"></i>
                 <h4>Movie Site</h4>
                 <p>Movie finding search engine.</p>
