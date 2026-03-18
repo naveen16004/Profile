@@ -1,2 +1,2 @@
 # Profile
-A portfolio which about me is in Underconstruction
+A portfolio which is about me
