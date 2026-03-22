@@ -205,7 +205,7 @@ function App() {
               <a href="https://github.com/naveen16004/Movie">
                 <i className="fa fa-film"></i>
                 <h4>Movie Site</h4>
-                <p>Movie finding search engine.</p>
+                <p>Movie streaming website.</p>
               </a>
             </div>
           </div>
