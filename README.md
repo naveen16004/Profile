@@ -14,7 +14,7 @@ This is my personal workspace where I blend **Full-Stack Development** with crea
 * **Live Contact System:** Real-time form validation with automatic database logging.
 * **Instant Alerts:** Integrated email triggers that notify me of new leads immediately.
 * **Dynamic UI:** Smooth scroll animations and typing effects for a "live" feel.
-* **The Yellow Bolt:** A custom-themed aesthetic representing energy and speed.
+ **The Yellow Bolt:** A custom-themed aesthetic representing energy and speed.
 
 ---
 *Status: Always Building. Always Learning.*
