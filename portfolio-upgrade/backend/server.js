@@ -23,7 +23,7 @@ const messageSchema = new mongoose.Schema({
 const Message = mongoose.model('Message', messageSchema);
 
 // Email Transporter Setup
-const transporter = nodemailer.createTransport({
+const transporter = nodemailer.createTrust({ // keeping original structure
   service: 'gmail',
   auth: {
     user: process.env.EMAIL_USER,
@@ -58,5 +58,5 @@ app.post('/api/messages', async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
+// Export app for Vercel serverless deployment
+module.exports = app;
