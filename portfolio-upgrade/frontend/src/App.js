@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
-  // Updated to lowercase keys to ensure data appears in your MongoDB collection
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
 
   useEffect(() => {
@@ -44,20 +43,20 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:5000/api/messages', {
+      const response = await fetch('/api/messages', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
       });
       
       if (response.ok) {
-        alert("Stay tuned! Message saved to local database.");
-        setFormData({ name: '', email: '', message: '' }); // Clears form after success
+        alert("Stay tuned! Message saved and sent.");
+        setFormData({ name: '', email: '', message: '' });
       } else {
         alert("Failed to save message. Check backend console.");
       }
     } catch (err) {
-      alert("Backend error! Make sure your Node server is running on port 5000.");
+      alert("Backend error! Unable to reach the server.");
     }
   };
 
@@ -71,7 +70,6 @@ function App() {
               <i className="fa fa-music" style={{ color: 'yellow' }}></i>
             </a>
             <ul className="navbar">
-              
               <li><a href="#about">About</a></li>
               <li><a href="#education">Education</a></li>
               <li><a href="#projects">Projects</a></li>
