@@ -1,4 +1,3 @@
-// Only load dotenv if a local .env file exists (prevents production warnings)
 if (process.env.NODE_ENV !== 'production') {
   require('dotenv').config();
 }
