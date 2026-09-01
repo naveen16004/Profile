@@ -20,8 +20,7 @@ async function connectDB() {
     return cachedDb;
   }
   if (!process.env.MONGO_URI) {
-    throw.error = new Error("MONGO_URI environment variable is missing!");
-    throw error;
+    throw new Error("MONGO_URI environment variable is missing!");
   }
   cachedDb = await mongoose.connect(process.env.MONGO_URI);
   console.log("✅ MongoDB Connected!");
