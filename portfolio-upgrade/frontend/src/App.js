@@ -93,7 +93,7 @@ function App() {
             I am a <span className="typing-text" style={{ color: 'yellow' }}></span>
           </p>
           <div className="btn-group" style={{ display: 'flex', gap: '15px' }}>
-            <a href="/naveen resume.pdf" download="Naveen_Resume.pdf" className="btn active">Download Resume</a>
+            <a href="/naveen_resume_v5.pdf" download="naveen_resume_v5.pdf" className="btn active">Download Resume</a>
             <a href="mailto:naveen16004@gmail.com" className="btn">Contact</a>
           </div>
         </div>
@@ -107,7 +107,7 @@ function App() {
               <h4>About Me</h4>
               <ul>
                 <li>I’m a college student passionate about blending academics with creative pursuits.</li>
-                <li>Foundation in Java, Python, and Full Stack Development.</li>
+                <li>Foundation in Full Stack Development, and Data Science.</li>
                 <li>I enjoy teaching guitar and stay inspired by logic and music.</li>
               </ul>
             </div>
@@ -188,24 +188,24 @@ function App() {
           </div>
           <div className="projects">
             <div className="project">
-              <a href="https://github.com/naveen16004/Book-Look">
-                <i className="fa fa-book"></i>
-                <h4>Book Look</h4>
+              <a href="https://github.com/naveen16004/Movie">
+                <i className="fa fa-film"></i>
+                <h4>Movie-Vault</h4>
                 <p>JS focused application.</p>
               </a>
             </div>
             <div className="project">
-              <a href="https://github.com/naveen16004/Guessing-Game">
-                <i className="fa fa-car"></i>
-                <h4>GUESSING GAME</h4>
-                <p>Frontend number finding game.</p>
+              <a href="https://github.com/naveen16004/FunkyOS">
+                <i className="fa fa-ghost"></i>
+                <h4>FunkyOS</h4>
+                <p>Plug and play GhostOS.</p>
               </a>
             </div>
             <div className="project">
-              <a href="https://github.com/naveen16004/Movie">
-                <i className="fa fa-film"></i>
-                <h4>Movie Site</h4>
-                <p>Movie streaming website.</p>
+              <a href="https://github.com/naveen16004/nimbus">
+                <i className="fa fa-gallery"></i>
+                <h4>Nimbus</h4>
+                <p>Cloud-based photo management application.</p>
               </a>
             </div>
           </div>
