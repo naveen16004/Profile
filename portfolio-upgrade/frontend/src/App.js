@@ -191,7 +191,7 @@ function App() {
               <a href="https://github.com/naveen16004/Movie">
                 <i className="fa fa-film"></i>
                 <h4>Movie-Vault</h4>
-                <p>JS focused application.</p>
+                <p>Movie Streaming Platform.</p>
               </a>
             </div>
             <div className="project">
@@ -203,7 +203,7 @@ function App() {
             </div>
             <div className="project">
               <a href="https://github.com/naveen16004/nimbus">
-                <i className="fa fa-gallery"></i>
+                <i className="fa fa-cloud"></i>
                 <h4>Nimbus</h4>
                 <p>Cloud-based photo management application.</p>
               </a>
